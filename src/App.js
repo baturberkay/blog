@@ -13,7 +13,7 @@ function App() {
             <Header title="BB's Blog"  />
           <TabPanel/>
         </Container>
-        <Footer title="BB's Blog" description="Please feel free to contact me at any time if further information is needed" />
+        <Footer title="BB's Blog" description="Please feel free to contact me at any time" />
     </div>
   );
 }
