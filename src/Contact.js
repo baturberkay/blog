@@ -4,7 +4,6 @@ import Col from 'react-bootstrap/Col'
 import Row from 'react-bootstrap/Row'
 import Mail from './mail.png'
 import GitHub from './github.png'
-import Steam from './steam.png'
 import LinkedIn from './linkedin.png'
 import Typography from "@material-ui/core/Typography";
 
@@ -14,8 +13,6 @@ class Contact extends Component {
             <React.Fragment>
                 <Container maxWidth="lg">
                     <Typography component="div" style={{height: '100vh'}}>
-
-
                         <div align="left">
                             <Row>
                                 <Col>
@@ -27,7 +24,7 @@ class Contact extends Component {
                                 </Col>
                             </Row>
                             <Row>
-                                <Col xs={12} xsOffset={6}>
+                                <Col>
                                     <img src={Mail}
                                          alt={'logo'}
                                          style={{width: 22, height: 22}}/>
@@ -40,14 +37,6 @@ class Contact extends Component {
                                          alt={'logo'}
                                          style={{width: 22, height: 22}}/>
                                     <a href="https://www.github.com/baturberkay"> baturberkay</a>
-                                </Col>
-                            </Row>
-                            <Row>
-                                <Col>
-                                    <img src={Steam}
-                                         alt={'logo'}
-                                         style={{width: 22, height: 22}}/>
-                                    <a href="https://steamcommunity.com/id/thestarrynight/"> /home/bb</a>
                                 </Col>
                             </Row>
                         </div>
